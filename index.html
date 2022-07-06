@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebStudio</title>
+
+		<!-- шрифти -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"/>
+
+		<!-- стилі -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+
+	<body>
+		<!-- верхній рядок -->
+		<header class="head-border">
+			<div class="container head-nav">
+				<!-- Навігація-->
+				<nav class="nav">
+					<!-- логотип -->
+					<a href="./" class="logo">Web<span class="logo-positive">Studio</span></a>
+					<!-- Меню -->
+					<ul class="menu">
+						<li class="menu-item">
+							<a href="./" class="menu-link">Студия</a>
+						</li>
+						<li class="menu-item">
+							<a href="./portfolio.html" class="menu-link">Портфолио</a>
+						</li>
+						<li class="menu-item">
+							<a href="./" class="menu-link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- Контакти  в хедері-->
+				<ul class="contacts">
+					<li class="contact-item">
+						<a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+					</li>
+					<li class="contact-item">
+						<a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<main>
+			<!-- Секція героя -->
+			<section class="section hero">
+				<div class="container ">
+				<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+				<button type="button" class="order-batton">Заказать услугу</button>
+				</div>
+			</section>
+
+			<!-- особливості  -->
+			<section class="section">
+				<div class="container">
+					<h2 class="hidden">Наші особливості - hidden tag</h2>
+					<ul class="features">
+						<li class="features-item">
+							<h3 class="features-title">Внимание к деталям</h3>
+							<p class="features-text">
+								Идейные соображения, а также начало повседневной работы по
+								формированию позиции.
+							</p>
+						</li>
+						<li class="features-item">
+							<h3 class="features-title">Пунктуальность</h3>
+							<p class="features-text">
+								Задача организации, в особенности же рамки и место обучения кадров
+								влечет за собой.
+							</p>
+						</li>
+						<li class="features-item">
+							<h3 class="features-title">Планирование</h3>
+							<p class="features-text">
+								Равным образом консультация с широким активом в значительной
+								степени обуславливает.
+							</p>
+						</li>
+						<li class="features-item">
+							<h3 class="features-title">Современные технологии</h3>
+							<p class="features-text">
+								Значимость этих проблем настолько очевидна, что реализация
+								плановых заданий.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- чим ми займаємось -->
+			<section class="section">
+				<div class="container">
+					<h2 class="section-title">Чем мы занимаемся</h2>
+					<!-- блок світлин -->
+					<ul class="offers">
+						<li class="offer-item">
+							<img
+								src="./images/codding.jpg"
+								alt="розробка"
+								width="370"
+								height="294"
+							/>
+						</li>
+						<li class="offer-item">
+							<img
+								src="./images/android.jpg"
+								alt="мобільні додатки"
+								width="370"
+								height="294"
+							/>
+						</li>
+						<li class="offer-item">
+							<img
+								src="./images/design.jpg"
+								alt="дизайн"
+								width="370"
+								height="294"
+							/>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- наша команда -->
+			<section class="section">
+				<div class="container">
+					<h2 class="section-title">Наша команда</h2>
+					<!-- блок з фото і описом співробітників -->
+					<ul class="employee">
+						<li class="employee-item">
+							<img class="employee-img"
+								src="./images/igor-demyanenko-PS1050x1010px-squoosh.jpg"
+								alt="Ігор"
+								width="270"
+								height="260"
+							/>
+							<h3 class="employee-name">Игорь Демьяненко</h3>
+							<p class="employee-posiition">Product Designer</p>
+						</li>
+
+						<li class="employee-item">
+							<img class="employee-img"
+								src="./images/olga-repina-PS1050x1010-squoosh.jpg"
+								alt="Ольга"
+								width="270"
+								height="260"
+							/>
+							<h3 class="employee-name">Ольга Репина</h3>
+							<p class="employee-posiition">Frontend Developer</p>
+						</li>
+
+						<li class="employee-item">
+							<img class="employee-img"
+								src="./images/nikolay-tarasov-PS1050x1010px-squoosh.jpg"
+								alt="Микола"
+								width="270"
+								height="260"
+							/>
+							<h3 class="employee-name">Николай Тарасов</h3>
+							<p class="employee-posiition">Marketing</p>
+						</li>
+
+						<li class="employee-item">
+							<img class="employee-img"
+								src="./images/mikhail-yermakov-PS1050x1010px-squoosh.jpg"
+								alt="Михайло"
+								width="270"
+								height="260"
+							/>
+							<h3 class="employee-name">Михаил Ермаков</h3>
+							<p class="employee-posiition">UI Designer</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container">
+				<a href="./" class="logo">Web<span class="logo-negative">Studio</span></a>
+					
+				<!-- footer contacts -->
+				<address>
+					<ul class="footer-contacts">
+						<li class="footer-contacts-item">
+							<a href="https://goo.gl/maps/csTUW6vFvjiGMf6m9" class="footer-contacts-address" target="_blank"	rel="noreferrer noopener nofollow">г. Киев, пр-т Леси Украинки, 26</a>
+						</li>
+						<li class="footer-contacts-item">
+							<a href="mailto:info@devstudio.com" class="footer-contacts">info@devstudio.com</a>
+						</li>
+						<li class="footer-contacts-item">
+							<a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+
