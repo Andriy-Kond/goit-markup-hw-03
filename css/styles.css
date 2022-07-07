@@ -351,9 +351,6 @@ footer .logo {
 
 
 /* * «B17» У картках на сторінці Портфоліо є рамка (властивість border), але тільки у нижній частині картки. */
-/* .card-item {
-    border-bottom: 1px solid #EEEEEE;
-} */
 
 .card-item:not(:nth-child(3n)) {
     margin-right: 30px;
