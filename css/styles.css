@@ -176,6 +176,10 @@ body {
     cursor: pointer;
 }
 
+.order-batton:hover {
+    background-color: #188CE8;
+}
+
 /* Особливості */
 .visually-hidden {
     position: absolute;
