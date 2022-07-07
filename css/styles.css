@@ -176,7 +176,8 @@ body {
     cursor: pointer;
 }
 
-.order-batton:hover {
+.order-batton:hover,
+.order-batton:focus, {
     background-color: #188CE8;
 }
 
