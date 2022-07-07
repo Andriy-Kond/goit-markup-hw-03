@@ -177,7 +177,7 @@ body {
 }
 
 .order-batton:hover,
-.order-batton:focus, {
+.order-batton:focus {
     background-color: #188CE8;
 }
 
