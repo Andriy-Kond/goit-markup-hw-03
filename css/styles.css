@@ -122,8 +122,8 @@ body {
 /* стилізація навігаційного меню при подіях */
 .menu-link:hover,
 .menu-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--logo-brand-color);
 }
 .menu-link-action:visited { color: var(--black); }
