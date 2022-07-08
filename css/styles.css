@@ -280,7 +280,6 @@ body {
 
     background-color: var(--background-brand-color);
 }
-   
 
 footer .logo {
     display: inline-block;
@@ -389,7 +388,7 @@ footer .logo {
 }
 
 .card-item-title {
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; - Григорій Черниш сказав приббрати, хоча він в проєкті є */
 
     font-weight: 700;
     font-size: 18px;
